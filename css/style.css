@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #1f1f1f;
+    width: 100%;
+    font-family: 'Montserrat',
+    sans-serif;
+}
+
+body{
+    background-color: transparent !important;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+}
+
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+}
+
+.main img{
+    height: auto;
+    width: 25%;
+}
+
+.content{
+    padding-top: 1em;
+}
+
+.fa-container{
+    display: inline-block;
+}
+
+.fa-container i{
+    display: inline-block;
+    padding-top: .25em;
+    color: #fff;
+    font-size: 32px;
+    width: auto;
+    margin: 0 .5em;
+}
+
+.fa-container i:hover{
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
+
+.fa-twitter:hover{
+    color: #00acee;
+}
+
+.fa-instagram:hover{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-github:hover{
+    color: #6e5494;
+}
+
+.fa-envelope:hover{
+    color: #bd2c00;
+}
+
+@media (max-width: 990px){
+    .main img{
+        width: 50%;
+    }
+}
